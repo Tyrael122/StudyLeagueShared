@@ -6,5 +6,6 @@ import kotlinx.serialization.Serializable
 class StudentDTO(
     var id: Long = 0,
     var name: String = "",
-    var goal: String = ""
+    var goal: String = "",
+    var studyArea: String = "",
 )

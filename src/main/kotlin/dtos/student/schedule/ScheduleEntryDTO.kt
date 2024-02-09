@@ -7,10 +7,10 @@ import java.time.LocalTime
 @Serializable
 class ScheduleEntryDTO(
     @Serializable(with = LocalTimeSerializer::class)
-    var start: LocalTime = LocalTime.MIDNIGHT,
+    var startTime: LocalTime = LocalTime.MIDNIGHT,
 
     @Serializable(with = LocalTimeSerializer::class)
-    var end: LocalTime = LocalTime.MIDNIGHT,
+    var endTime: LocalTime = LocalTime.MIDNIGHT,
 
     var subjectId: Long = 0,
 )
