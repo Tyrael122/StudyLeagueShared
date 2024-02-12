@@ -9,6 +9,8 @@ class SubjectDTO(
     var id: Long = 0,
     var name: String = "",
 
+    var hoursToStudyToday: Float = 0F,
+
     var weeklyGoals: ReadGoalDTO = ReadGoalDTO(),
     var allTimeGoals: ReadGoalDTO = ReadGoalDTO(),
 
