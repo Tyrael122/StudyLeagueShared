@@ -1,6 +1,6 @@
 package dtos.student.schedule
 
-import util.LocalTimeSerializer
+import util.serializers.LocalTimeSerializer
 import kotlinx.serialization.Serializable
 import java.time.LocalTime
 

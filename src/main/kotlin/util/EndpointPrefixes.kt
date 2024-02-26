@@ -9,4 +9,5 @@ object EndpointPrefixes {
     const val SCHEDULE = "/schedule"
     const val GOALS = "/goals"
     const val STATS = "/stats"
+    const val CURRENT_TIME = "/current-time"
 }
