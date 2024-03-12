@@ -1,6 +1,7 @@
 package util
 
 object EndpointPrefixes {
+    const val LOGIN = "/login"
     const val STUDENT = "/student"
     const val STUDENT_ID = "$STUDENT/{studentId}"
     const val SUBJECT = "/subjects"
