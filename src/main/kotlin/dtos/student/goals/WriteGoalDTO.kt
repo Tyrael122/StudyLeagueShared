@@ -6,5 +6,5 @@ import kotlinx.serialization.Serializable
 @Serializable
 class WriteGoalDTO(
     var statisticType: StatisticType,
-    var value: Float
+    var target: Float
 )
