@@ -6,5 +6,5 @@ import java.time.DayOfWeek
 @Serializable
 class StudyDayDTO(
     var dayOfWeek: DayOfWeek = DayOfWeek.MONDAY,
-    var schedule: List<ScheduleEntryDTO> = emptyList(),
+    var entries: List<ScheduleEntryDTO> = emptyList(),
 )
