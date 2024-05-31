@@ -1,7 +1,7 @@
 package dtos
 
-import dtos.statistic.ReadStatisticDTO
-import dtos.student.goals.ReadGoalDTO
+import dtos.student.ReadGoalDTO
+import dtos.student.ReadStatisticDTO
 import kotlinx.serialization.Serializable
 
 @Serializable

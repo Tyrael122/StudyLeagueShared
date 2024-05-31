@@ -1,5 +1,6 @@
 package dtos.student
 
+import enums.StudySchedulingMethods
 import kotlinx.serialization.Serializable
 
 @Serializable
@@ -9,4 +10,5 @@ class StudentDTO(
     var name: String = "",
     var goal: String = "",
     var studyArea: String = "",
+    var currentStudySchedulingMethod: StudySchedulingMethods = StudySchedulingMethods.getDefaultValue(),
 )

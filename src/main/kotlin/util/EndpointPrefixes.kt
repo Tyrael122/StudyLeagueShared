@@ -11,4 +11,7 @@ object EndpointPrefixes {
     const val GOALS = "/goals"
     const val STATS = "/stats"
     const val CURRENT_TIME = "/current-time"
+    const val STUDY_CYCLE = "/study-cycle"
+    const val STUDY_CYCLE_NEXT = "$STUDY_CYCLE/next"
+    const val CHANGE_SCHEDULE_METHOD = "/change-schedule-method"
 }
